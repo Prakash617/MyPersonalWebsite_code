@@ -26,7 +26,7 @@ nav {
 
 header{
     background-color: rgb(153, 163, 160);
-    clip-path: polygon(0 0 ,100% 0 ,100% 100%, 70% 87%, 0  100%);
+    clip-path: polygon(0 0 ,100% 0 ,100% 100%, 70% 93%, 0  100%);
     height: 100vh;
 }
 
@@ -152,11 +152,12 @@ header nav .logo{
 }
 
 .card-wrapper .card{
+    position: relative;
     text-align: center;
     margin-bottom: 3rem;
     background-color: white;
     padding-top: 2rem;
-    position: relative;
+    
 }
 .card-wrapper .card:hover{
     background-color:black;
@@ -567,7 +568,43 @@ section.contact .container .boxwrapper .box img{
     }
 };
 
-@media (max-width:550px){
+#social1{
+    display: flex;
+    flex-direction: row;
+}
+
+@media (max-width:938px) {
+  
+
+    .card-wrapper .card img {
+        position: absolute;
+        top: -46%;
+        left: 10%;
+        border-radius: 50%;
+        height: 110px;
+    }
+        
+    }
+
+    @media (max-width:850px){
+        .about .container .left {
+            margin: 2rem;
+        }
+    
+        .card_wrapper{
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .card-wrapper .card img {
+            position: absolute;
+            top: -82%;
+            left: 33%;
+            border-radius: 50%;
+            height: 110px;
+        }
+    }
+@media (max-width:600px){
     .about .container .left {
         margin: 2rem;
     }
@@ -576,4 +613,15 @@ section.contact .container .boxwrapper .box img{
         display: flex;
         flex-direction: column;
     }
+    
+    .card-wrapper .card img {
+        position: absolute;
+        top: -82%;
+        left: 33%;
+        border-radius: 50%;
+        height: 110px;
+    }
 }
+
+
+
