@@ -63,6 +63,10 @@ header nav .logo{
 /* .hero .right h1{
     font-size: 4rem;
 } */
+#contact a{
+    text-decoration: none;
+    color: red
+}
 .hero .right p{
     margin-bottom: 3rem;
 }
