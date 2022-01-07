@@ -20,7 +20,7 @@ if(isset($_POST['submit'])){
     $mail->Host = 'smtp.gmail.com';
     $mail->SMTPAuth = true;
     $mail->Username = 'superbang617@gmail.com'; // Gmail address which you want to use as SMTP server
-    $mail->Password = '9741142494'; // Gmail address Password
+    $mail->Password = '@'; // Gmail address Password
     $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
     $mail->Port = '587';
 
